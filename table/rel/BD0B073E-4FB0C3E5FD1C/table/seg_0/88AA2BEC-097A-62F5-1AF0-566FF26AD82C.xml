@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88AA2BEC-097A-62F5-1AF0-566FF26AD82C" name="CUSTOMER">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:01:13 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="EC7D992D-A863-82D4-0763-DA7CA28BDCEB">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_name" id="1765C6C2-1DA3-3D9B-CB70-E7ED5F2DBBED">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="6247A087-8B3A-9704-19D2-0BE8047E526D">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthday" id="C992F976-EAF2-7334-1308-C5908280CDCE">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="007F89A9-510E-4938-E9AC-2F140F0834BD">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="558B8D07-5E02-AC4C-38BD-CD8A8A082B18">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="point" id="E85EB818-BDAB-FC23-9E7D-60BE259F1975">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F60B5C06-CFCD-D244-B001-2E1189C278B0" name="CUSTOMER_PK">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC7D992D-A863-82D4-0763-DA7CA28BDCEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

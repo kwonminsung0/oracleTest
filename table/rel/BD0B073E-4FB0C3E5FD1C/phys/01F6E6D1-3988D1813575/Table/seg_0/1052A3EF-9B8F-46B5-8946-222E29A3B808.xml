@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DEPARTMENTS" directorySegmentName="seg_0" id="1052A3EF-9B8F-46B5-8946-222E29A3B808">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:36 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<schemaObject>99F1133E-A696-2698-959F-F5A18A4182F7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>336FD5D4-E677-0945-B4B6-6137CC795F1C</segment>
+<tableSpace>580B4373-0E59-7664-909F-221C74ACE9DC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MANAGER_ID" id="62746FB3-ACA1-7C95-740E-A6CEB43419BE">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION_ID" id="89007A45-9981-AEBA-C4D5-BCC3350A322C">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="A51CB1C1-1C35-BE49-5444-2B579069C6D2">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_NAME" id="E2161A8D-8A69-F71E-4E46-FCF94910C8B2">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPT_ID_PK" id="1F35383A-DC36-172D-D467-0E352E03A369">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<schemaObject>99F1133E-A696-2698-959F-F5A18A4182F7</schemaObject>
+<segment>280207B8-EBD5-B389-90AD-81E704277876</segment>
+<tableSpace>580B4373-0E59-7664-909F-221C74ACE9DC</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPT_LOCATION_IX" id="E684D430-6DA8-3B38-D10D-99A35B124863">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<schemaObject>99F1133E-A696-2698-959F-F5A18A4182F7</schemaObject>
+<segment>280207B8-EBD5-B389-90AD-81E704277876</segment>
+<tableSpace>580B4373-0E59-7664-909F-221C74ACE9DC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPT_MGR_FK" id="8775EF2F-99D1-5CD5-6C1B-8C3E831E3BBB">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:40 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPT_LOC_FK" id="C91C6D5C-0172-E0B3-6C2B-C475F221A358">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:40 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPT_ID_PK" id="24C057AF-E805-20B1-777F-3651E30858DA">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<segment>280207B8-EBD5-B389-90AD-81E704277876</segment>
+<tableSpace>580B4373-0E59-7664-909F-221C74ACE9DC</tableSpace>
+<existingIndex>1F35383A-DC36-172D-D467-0E352E03A369</existingIndex>
+<indexSegment>280207B8-EBD5-B389-90AD-81E704277876</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

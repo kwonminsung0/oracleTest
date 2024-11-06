@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CUSTOMER" directorySegmentName="seg_0" id="88AA2BEC-097A-62F5-1AF0-566FF26AD82C">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:01:13 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="phone" id="007F89A9-510E-4938-E9AC-2F140F0834BD">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_name" id="1765C6C2-1DA3-3D9B-CB70-E7ED5F2DBBED">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="558B8D07-5E02-AC4C-38BD-CD8A8A082B18">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gender" id="6247A087-8B3A-9704-19D2-0BE8047E526D">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="birthday" id="C992F976-EAF2-7334-1308-C5908280CDCE">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="point" id="E85EB818-BDAB-FC23-9E7D-60BE259F1975">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_id" id="EC7D992D-A863-82D4-0763-DA7CA28BDCEB">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="F60B5C06-CFCD-D244-B001-2E1189C278B0">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 07:04:24 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

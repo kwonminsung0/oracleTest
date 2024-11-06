@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REGIONS" directorySegmentName="seg_0" id="B5E53CAD-374B-08AD-E2EC-40D24B01F3B1">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:36 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<schemaObject>99F1133E-A696-2698-959F-F5A18A4182F7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>336FD5D4-E677-0945-B4B6-6137CC795F1C</segment>
+<tableSpace>580B4373-0E59-7664-909F-221C74ACE9DC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="539FD815-478C-0321-889E-F552800B916C">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_NAME" id="C4BDAAC1-4CAB-5A48-D9AB-6F7595C8A9BF">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="8A3B8D77-2AFC-BB55-4D6C-C94437B6FF23">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<schemaObject>99F1133E-A696-2698-959F-F5A18A4182F7</schemaObject>
+<segment>280207B8-EBD5-B389-90AD-81E704277876</segment>
+<tableSpace>580B4373-0E59-7664-909F-221C74ACE9DC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="DFB8EED2-99AE-B487-FF0C-A44F5F67C0DC">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<segment>280207B8-EBD5-B389-90AD-81E704277876</segment>
+<tableSpace>580B4373-0E59-7664-909F-221C74ACE9DC</tableSpace>
+<existingIndex>8A3B8D77-2AFC-BB55-4D6C-C94437B6FF23</existingIndex>
+<indexSegment>280207B8-EBD5-B389-90AD-81E704277876</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
