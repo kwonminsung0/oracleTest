@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FE9732D-C098-A29D-D13B-4F05FDDB15A9" schemaObject="A274849B-821B-C7E2-5E0D-EA9C629A93C0" name="TRAINEE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>TRAINEE</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="28C1FCAC-74F1-C633-749B-0433F7443C63">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SD_NUM" id="C93A79A9-1B59-D8F4-BC39-347082FFB53A">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>SD_NUM</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D9ADA6D-92EA-9096-1D7E-601A40BD53B2" referredColumn="9AF87712-2228-50F5-1309-6EF77B4B4B3E"/>
+</associations>
+</Column>
+<Column name="L_NUM" id="0863F902-42BC-2A5D-EEFF-014B34F90361">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>L_NUM</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7912BC00-7B93-FDC5-F096-F2E5BED78506" referredColumn="F471760B-1E34-795D-3689-C2C1DAAA4533"/>
+</associations>
+</Column>
+<Column name="SECTION" id="2D7FF892-25BD-578D-AACF-4DE2F16C3EAE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>SECTION</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DATE" id="639A2658-995F-0290-CCC6-51802FB89EB6">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>T_DATE</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F61DF762-9C03-B033-DC63-DB377231E2EE" name="TRAINEE_L_NUM_FK">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:33 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0863F902-42BC-2A5D-EEFF-014B34F90361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7CA2E7A-40FA-5EF0-D5EB-B2358C5E157C" name="TRAINEE_SD_NUM_FK">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:33 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C93A79A9-1B59-D8F4-BC39-347082FFB53A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

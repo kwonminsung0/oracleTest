@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="STUDENT" directorySegmentName="seg_0" id="1CDCB07F-4E3D-0C66-6910-50F1EF463CF4">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<schemaObject>A274849B-821B-C7E2-5E0D-EA9C629A93C0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2C68ABE3-A78A-8498-6800-6A4D39B65E26</segment>
+<tableSpace>5FC672F7-730D-9094-767B-1C504B81EEFB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NO" id="022C5EC5-A1AF-DA46-9324-B37506A8F9F9">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JUMIN" id="20A9C0D9-DF6C-BB43-B26E-A21E500E7E63">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SD_DATE" id="29989CBB-EED9-3574-CAAE-67DB72A87275">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="44731D79-33C7-3674-9C25-95CE4C99FB38">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSWORD" id="51F6FE19-F9B6-F1CC-A699-9797567723A8">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="6C046409-7D99-6CBE-0ACD-2D9C77DC03AB">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM" id="9AF87712-2228-50F5-1309-6EF77B4B4B3E">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="B5E1FC18-6608-E1D3-57AC-4B8AC7A5A749">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDR" id="C67A32F7-8D71-97AA-5D2D-EB8DFC12747A">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="ED672630-615A-79A7-2E14-47109DE0A5CC">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBJECT_NUM" id="FF449F86-4844-1050-070F-609A2C4D1423">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STUDENT_NO_PK" id="19DD7D19-9A16-9488-2387-A6DCBC69E6EA">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:32 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<schemaObject>A274849B-821B-C7E2-5E0D-EA9C629A93C0</schemaObject>
+<segment>6E5E03CC-628D-9985-1E7C-ED6A327E581A</segment>
+<tableSpace>5FC672F7-730D-9094-767B-1C504B81EEFB</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STUDENT_NUM_UK" id="7D9A5E6B-05C3-2114-82D7-5D9C2A29745C">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:32 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<schemaObject>A274849B-821B-C7E2-5E0D-EA9C629A93C0</schemaObject>
+<segment>6E5E03CC-628D-9985-1E7C-ED6A327E581A</segment>
+<tableSpace>5FC672F7-730D-9094-767B-1C504B81EEFB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="STUDENT_SUBJECT_NUM_FK" id="E43EE8D2-1B2F-0345-0D98-F5DAFFBAEDA1">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:33 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STUDENT_NO_PK" id="3C0C10C4-472D-2342-03CC-FDBD7314EA7D">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:33 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<segment>6E5E03CC-628D-9985-1E7C-ED6A327E581A</segment>
+<tableSpace>5FC672F7-730D-9094-767B-1C504B81EEFB</tableSpace>
+<existingIndex>19DD7D19-9A16-9488-2387-A6DCBC69E6EA</existingIndex>
+<indexSegment>6E5E03CC-628D-9985-1E7C-ED6A327E581A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="STUDENT_NUM_UK" id="C5355ECC-FF12-7D90-5D43-71DE20638226">
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:33 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<segment>6E5E03CC-628D-9985-1E7C-ED6A327E581A</segment>
+<tableSpace>5FC672F7-730D-9094-767B-1C504B81EEFB</tableSpace>
+<existingIndex>7D9A5E6B-05C3-2114-82D7-5D9C2A29745C</existingIndex>
+<indexSegment>6E5E03CC-628D-9985-1E7C-ED6A327E581A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
