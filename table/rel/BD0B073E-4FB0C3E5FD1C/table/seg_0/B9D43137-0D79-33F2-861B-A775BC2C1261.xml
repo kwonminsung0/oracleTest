@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9D43137-0D79-33F2-861B-A775BC2C1261" schemaObject="99F1133E-A696-2698-959F-F5A18A4182F7" name="CUSTOMER">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:36 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="3D74BC49-7521-DBAA-08A6-3AE502AB6986">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_NAME" id="1D4099B2-4BF2-0537-B8B3-384885760A72">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_NAME</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="9BE56CF3-228D-8918-BE2D-B6BA5E5950B1">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>GENDER</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<constraintName>CUSTOMER_GENDER_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;M&apos;" description=""/>
+<valueDef value="&apos;W&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTHDAY" id="5669EF54-04FB-6668-96D0-E8514AB8AC16">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>BIRTHDAY</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="80F4F176-A1E7-7AAE-AB5F-323991795BD1">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="16C267E3-3C34-C398-C461-BDBFB70D6FE3">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POINT" id="EE9114A1-3D5E-3083-80F0-AEDC6D86E592">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>POINT</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:37 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F332896-49E2-9232-D078-1E325AA89500" name="CUSTOMER_CUSTOMER_ID_PK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>CUSTOMER_CUSTOMER_ID_PK</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D74BC49-7521-DBAA-08A6-3AE502AB6986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5F01259-227F-8479-94C4-D891D6BAB60B" name="CUSTOMER_EMAIL_UK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>CUSTOMER_EMAIL_UK</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16C267E3-3C34-C398-C461-BDBFB70D6FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23B5943C-AEFC-6998-390A-A94CF6FA1617" schemaObject="99F1133E-A696-2698-959F-F5A18A4182F7" name="CUSTOMER_CUSTOMER_ID_PK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>CUSTOMER_CUSTOMER_ID_PK</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D74BC49-7521-DBAA-08A6-3AE502AB6986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E68150A4-3634-9283-A098-C04F19E6758D" schemaObject="99F1133E-A696-2698-959F-F5A18A4182F7" name="CUSTOMER_EMAIL_UK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>CUSTOMER_EMAIL_UK</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-06 06:42:39 UTC</createdTime>
+<ownerDesignName>table</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16C267E3-3C34-C398-C461-BDBFB70D6FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

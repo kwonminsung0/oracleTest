@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53648DC0-3DEC-6C79-7FDA-295431C26009" schemaObject="A274849B-821B-C7E2-5E0D-EA9C629A93C0" name="SUBJECT">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SUBJECT</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="D3377656-3B12-4BDC-8466-09F3460685DD">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>SUBJECT</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM" id="74C0F91A-3E1B-FA22-1FE2-61EE4CD796FA">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>SUBJECT</sourceObjSchema>
+<sourceObjName>NUM</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="27D04CB1-14A5-5FF5-1F4C-2F481BB7C7FB">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>SUBJECT</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F9BCCE1-9A73-9D24-6E25-4F37001EAF3B" name="SUBJECT_NO_PK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SUBJECT_NO_PK</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:33 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3377656-3B12-4BDC-8466-09F3460685DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C96CB66-E804-5C99-8980-BED5DA180D2F" name="SUBJECT_NUM_UK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SUBJECT_NUM_UK</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:33 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C0F91A-3E1B-FA22-1FE2-61EE4CD796FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F01A0151-47E9-286A-8A73-EC6E05229140" schemaObject="A274849B-821B-C7E2-5E0D-EA9C629A93C0" name="SUBJECT_NO_PK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SUBJECT_NO_PK</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:32 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3377656-3B12-4BDC-8466-09F3460685DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D09027F3-86ED-7BFA-5F89-23A3C5D43DF9" schemaObject="A274849B-821B-C7E2-5E0D-EA9C629A93C0" name="SUBJECT_NUM_UK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SUBJECT_NUM_UK</sourceObjName>
+<createdBy>minsung</createdBy>
+<createdTime>2024-11-08 01:59:32 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C0F91A-3E1B-FA22-1FE2-61EE4CD796FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
