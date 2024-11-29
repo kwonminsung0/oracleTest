@@ -18,8 +18,9 @@ UPDATE SUBJECT SET NAME = '보안학과' WHERE NUM = '03';
 SELECT * FROM SUBJECT ORDER BY NUM;
 
 commit;
-
+drop table subject;
 -- 학생
+drop table student;
 create table student( 
     no number,                      -- PK, SEQ
     num varchar2(8) not null,       -- 학번(년도,학과번호)
@@ -60,10 +61,11 @@ SELECT NUM, NAME, EMAIL FROM STUDENT WHERE NAME = 'KDJ';
 
 
 -- lesson 과목
+drop table lesson;
 create table lesson( 
     no number,                  -- PK, SEQ
     abbre varchar2(2) not null, -- 과목요약
-    name varchar2(20) not null  -- 과목이름
+    name varchar2(40) not null  -- 과목이름
 );
 ALTER table lesson add constraint lesson_no_pk PRIMARY KEY(no);
 ALTER table lesson add constraint lesson_abbre_uk UNIQUE(abbre);
@@ -94,6 +96,7 @@ ALTER table trainee add constraint trainee_student_num_fk
     FOREIGN KEY(s_num) References student(num) on delete set null;
 ALTER table trainee add constraint trainee_lesson_abbre_fk 
     FOREIGN KEY(abbre) References lesson(abbre) on delete set null;
+ALTER table trainee drop constraint trainee_lesson_abbre_fk;
 
 create sequence trainee_seq 
 start with 1
@@ -104,3 +107,19 @@ UPDATE TRAINEE SET S_NUM = '', ABBRE = '', SECTION = '' WHERE NO = 10;
 INSERT INTO TRAINEE VALUES(trainee_seq.NEXTVAL, '', '', '', SYSDATE);
 
 commit;
+
+-- 공공데이터 (전통시장 정보)
+create table LANDPRICE(
+    NODENO NUMBER,                  -- PK
+    GPSLATI NUMBER,
+    GPSLONG NUMBER,
+    NODEID VARCHAR2(20) NOT NULL,
+    NODENM VARCHAR2(50) NOT NULL
+);
+ALTER table LANDPRICE add constraint LANDPRICE_NODENO_PK PRIMARY KEY(NODENO);
+ALTER table LANDPRICE add constraint LANDPRICE_NODEID_UK UNIQUE(NODEID);
+
+select * from LANDPRICE;
+
+
+
