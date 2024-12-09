@@ -21,16 +21,37 @@ CREATE SEQUENCE join_seq  -- 시퀀스이름
    NOMAXVALUE             -- 최대 값이 무한대
    NOCACHE
    NOCYCLE;
-
+drop table join;
 CREATE table JOIN (
     NO        NUMBER(5,0) NOT NULL,
     NAME      VARCHAR2(20) NOT NULL,
     ID        VARCHAR2(30) NOT NULL,
-    PW        VARCHAR2(30) NOT NULL,
-    PHONE     VARCHAR2(20) NOT NULL,
-    BIRTH     VARCHAR2(10) NOT NULL,
-    JOINDATE  DATE NOT NULL
+    pass      VARCHAR2(30) NOT NULL
 );
 ALTER TABLE JOIN ADD CONSTRAINT JOIN_NO_PK PRIMARY KEY(NO);
 select * from join;
-INSERT INTO join VALUES(join_seq.NEXTVAL, '권민성', 'kms12345', 'kms12345', '010-4192-7662', '000918', SYSDATE);
+delete from join where no = 20;
+commit;
+
+-- **********************************************************************************
+CREATE table LOGIN(
+    ID       VARCHAR2(12) NOT NULL,
+    PASS     VARCHAR2(12) NOT NULL
+);
+ALTER TABLE LOGIN ADD CONSTRAINT LOGIN_ID_PK PRIMARY KEY(ID);
+-- **********************************************************************************
+-- 김민석 회원가입 테이블
+create table ACCOUNT(
+    NO         NUMBER(5,0) NOT NULL,
+    NAME       VARCHAR2(20) NOT NULL,
+    ID         VARCHAR2(4000) NOT NULL,
+    PWD        VARCHAR2(4000) NOT NULL,
+    REGDATE    DATE NOT NULL
+);
+alter table ACCOUNT add constraint ACCOUNT_NO_PK primary key (NO);
+alter table ACCOUNT add constraint ACCOUNT_ID_UQ UNIQUE(ID);
+
+INSERT INTO ACCOUNT VALUES((select NVL(max(no),0)+1 from ACCOUNT),'AAA','AAA','AAA',SYSDATE);
+SELECT PWD FROM ACCOUNT WHERE ID ='kdj';
+SELECT * FROM ACCOUNT;
+commit;
