@@ -186,3 +186,9 @@ CREATE SEQUENCE BOARD_SEQ   -- 시퀀스이름
    NOCACHE
    NOCYCLE;
  
+select * from board;
+SELECT COUNT(*) AS COUNT FROM BOARD;
+select * from board order by num desc;
+ 
+select count(*) as count from board where num = 1 and pass = '1111';
+commit;
